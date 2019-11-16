@@ -23,6 +23,7 @@
 }
 
 .main-screen {
+    font-family: 'Alata', sans-serif;
     position: absolute;
     display: flex;
     justify-content: center;
