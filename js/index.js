@@ -27,4 +27,4 @@ const placeholders = new Placeholders(function () {
     $(".nav-items li").on('click', function () {
         window.location.href = $(this).data('href');
     });
-}).setValue('app_name', "Mysterio's Bot");
+}).setValue('app_name', "MysterioBot-Beta");
