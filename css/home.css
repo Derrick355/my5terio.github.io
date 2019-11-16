@@ -24,7 +24,7 @@
 
 .main-screen {
     font-family: 'Alata', sans-serif;
-    position: absolute;
+    position: absolute
     display: flex;
     justify-content: center;
     top: 0;
@@ -53,6 +53,7 @@
 }
 
 .app-desc {
+    font-family: 'Alata', sans-serif;
     color: var(--text-primary);
     vertical-align: top;
     font-size: 22px;
@@ -67,6 +68,7 @@
 }
 
 .links-div {
+    font-family: 'Alata', sans-serif;
     font-size: 30px;
     padding: 20px;
     color: var(--text-primary);
