@@ -6,6 +6,7 @@
     <title>{{page}} - {{app_name}}</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href="css/home.css" type="text/css" rel="stylesheet">
+    <link href="images/logo.png" rel="icon" type="image/x-icon">
 </head>
 <body>
 <div class="logo_bot"></div>
@@ -13,7 +14,7 @@
     <div class="main-screen">
         <div class="scroll">
             <p>Scroll</p>
-            <img src="scroll.icon.gif" alt="🖱">
+            <img src="images/scroll.icon.gif" alt="🖱">
         </div>
     </div>
     <div class="links-div">
@@ -49,7 +50,7 @@
 <script src="js/index.js"></script>
 <script>
     (function () {
-        placeholders.display();
+        placeholders.setValue("page", "Home").display();
     })();
 </script>
 </body>
