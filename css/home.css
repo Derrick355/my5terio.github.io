@@ -1,0 +1,98 @@
+.app-desc-div {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/*
+.logo_bot {
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    background-image: radial-gradient(#050d18, #082a39, var(--third), var(--third));
+}
+*/
+
+.logo_bot {
+    background-image: url("../Mysterio.gif");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-screen {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 30px;
+    color: white;
+}
+
+.screen-title {
+    align-self: center;
+}
+
+.scroll {
+    display: flex;
+    align-self: flex-end;
+}
+
+.scroll img {
+    width: 80px;
+}
+
+.scroll p {
+    margin-top: 15px;
+}
+
+.app-desc {
+    color: var(--text-primary);
+    vertical-align: top;
+    font-size: 22px;
+}
+
+.app-desc h1 {
+    text-align: center;
+}
+
+.app-desc p {
+    margin: 20px 0;
+}
+
+.links-div {
+    font-size: 30px;
+    padding: 20px;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.home-link {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: var(--text-primary);
+    border-radius: 10px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    transition: 200ms border;
+}
+
+.home-link:hover {
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.container {
+    min-height: 100vh;
+}

@@ -1,0 +1,43 @@
+#staff-category {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.staff-title {
+    text-align: center;
+    color: var(--text-primary);
+    padding-top: 40px;
+}
+
+.staff-card {
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px 0;
+    width: 15rem;
+    height: 18rem;
+    background-image: linear-gradient(var(--primary), var(--third));
+    border-radius: 10px;
+    color: var(--text-primary);
+    box-shadow: 0px 7px 17px -3px rgba(0, 0, 0, 0.5);
+    border: 5px solid var(--secondary);
+}
+
+.staff-icon {
+    padding: 20px;
+    text-align: center;
+}
+
+.staff-icon img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.staff-name {
+    text-align: center;
+}
+
+.staff-desc {
+    padding: 20px;
+}

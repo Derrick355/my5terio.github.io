@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{page}} - {{app_name}}</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/staff.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="nav-bar">
+        <a href="index.html" class="logo"><h1>{{app_name}}</h1></a>
+        <ul class="nav-items">
+            <li data-href="index.html">Home</li>
+            <li data-href="commands.html">Commands</li>
+            <li data-href="staff.html" class="active">Staff</li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+    <div id="staff-category"></div>
+</div>
+<footer>
+    {{app_name}} © 2019 - Designed by <a href="https://jackscode.me">Jacxk</a>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/staff.js"></script>
+</body>
+</html>

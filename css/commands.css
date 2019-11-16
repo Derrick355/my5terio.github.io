@@ -1,0 +1,57 @@
+#category_bar {
+    background-color: var(--secondary);
+    border-left: 5px solid var(--secondary);
+    border-right: 5px solid var(--secondary);
+    padding: 20px 0;
+    margin-top: 20px;
+    box-shadow: 0px 7px 17px -3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#category_bar a {
+    text-decoration: none;
+    color: var(--text-third);
+    padding: 20px;
+}
+
+#category_bar a.active {
+    color: var(--text-primary);
+}
+
+.command_card {
+    margin: 10px 0;
+    background-image: linear-gradient(var(--primary), var(--third));
+    color: var(--text-primary);
+    box-shadow: 0px 7px 17px -3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.category_btn {
+    padding: 10px;
+}
+
+.command_title {
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.command_body {
+    padding: 0 20px 20px;
+    font-size: 16px;
+}
+
+.command_footer {
+    color: var(--text-third);
+    border-top: 1px solid var(--text-third);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.command_footer * {
+    margin: 0 5px;
+}
