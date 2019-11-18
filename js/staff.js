@@ -40,7 +40,7 @@ placeholders.setValue('page', "Staff");
         .add(
             "MY5TERIO",
             "https://cdn.discordapp.com/avatars/329452869897945088/a_4afbd51b9d125165a677cfd6b8369518.gif?size=2048",
-            "Developer for MysterioBot and ",
+            "Developer for MysterioBot",
             [StaffCategory.DEV]
         )
         .add("LyLinx",
