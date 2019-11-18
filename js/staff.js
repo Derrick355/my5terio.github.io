@@ -1,4 +1,4 @@
-const StaffCategory = {DEV: "Developer", WEB_DEV: "Web Developer", MANAGEMENT: "Management"};
+const StaffCategory = {DEV: "Developer", MANAGEMENT: "Management"};
 
 class Staff {
     constructor() {
@@ -34,8 +34,8 @@ placeholders.setValue('page', "Staff");
         .add(
             "Jack",
             "https://cdn.discordapp.com/avatars/266315409735548928/fd2623aaddad05e08d8c8ed1b0cd9adc.png?size=2048",
-            "Hey... I made this... do you like it? If not you'll get banned!",
-            [StaffCategory.WEB_DEV, StaffCategory.DEV]
+            "Hey... I made this... do you like it? If not you'll get banned! I Think?",
+            [StaffCategory.DEV]
         )
         .add(
             "MY5TERIO",
