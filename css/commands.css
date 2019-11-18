@@ -33,7 +33,6 @@
 }
 
 .command_title {
-    font-family: 'Alata', sans-serif;
     font-weight: bolder;
     font-size: 20px;
     padding: 10px 0;
@@ -41,7 +40,6 @@
 }
 
 .command_body {
-    font-family: 'Alata', sans-serif;
     padding: 0 20px 20px;
     font-size: 16px;
 }
