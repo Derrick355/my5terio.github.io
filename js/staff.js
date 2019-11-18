@@ -1,4 +1,4 @@
-const StaffCategory = {DEV: "Developer", WEB_DEV: "Web Developer"};
+const StaffCategory = {DEV: "Developer", WEB_DEV: "Web Developer", MANAGEMENT: "Management"};
 
 class Staff {
     constructor() {
@@ -43,6 +43,11 @@ placeholders.setValue('page', "Staff");
             "I own you bitch",
             [StaffCategory.DEV]
         )
+        .add("LyLinx",
+             "https://cdn.discordapp.com/attachments/484103296693436428/645949289754787850/Jack-and-George.png?size=2048",
+             "I am the destroyer of servers!",
+             [StaffCategory.MANAGEMENT]
+             }
         .display();
     placeholders.display()
 })();
