@@ -47,7 +47,7 @@ placeholders.setValue('page', "Staff");
              "https://cdn.discordapp.com/attachments/484103296693436428/645949289754787850/Jack-and-George.png?size=2048",
              "I am the destroyer of servers!",
              [StaffCategory.MANAGEMENT]
-             }
+             )
         .display();
     placeholders.display()
 })();
