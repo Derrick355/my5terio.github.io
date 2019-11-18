@@ -34,13 +34,13 @@ placeholders.setValue('page', "Staff");
         .add(
             "Jack",
             "https://cdn.discordapp.com/avatars/266315409735548928/fd2623aaddad05e08d8c8ed1b0cd9adc.png?size=2048",
-            "Hey... I made this... do you like it? If not you'll get banned! I Think?",
+            "Website Developer! I made this. You don't like it? BANNED!",
             [StaffCategory.DEV]
         )
         .add(
             "MY5TERIO",
             "https://cdn.discordapp.com/avatars/329452869897945088/a_4afbd51b9d125165a677cfd6b8369518.gif?size=2048",
-            "Developer for MysterioBot",
+            "Developer for MysterioBot and ",
             [StaffCategory.DEV]
         )
         .add("LyLinx",
