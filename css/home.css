@@ -70,18 +70,14 @@
     text-decoration: none;
     color: var(--text-primary);
     border-radius: 10px;
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-    border-left: 2px solid transparent;
-    border-right: 2px solid transparent;
+    box-shadow: 0px 7px 17px -3px rgba(0, 0, 0, 0.5);
+    border: 5px solid var(--secondary);
     transition: 200ms border;
+    background-image: linear-gradient(var(--primary), var(--third));
 }
 
 .home-link:hover {
-    border-bottom: 2px solid transparent;
-    border-top: 2px solid transparent;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
+    border: 5px solid var(--primary);
 }
 
 .container {
