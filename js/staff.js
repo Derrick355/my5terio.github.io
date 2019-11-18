@@ -1,4 +1,4 @@
-const StaffCategory = {DEV: "Developer", MANAGEMENT: "Management"};
+const StaffCategory = {DEV: "Developer", MANAGEMENT: "Management", MODERATORS: "Moderator", DONATORS: "Donator", PREMIUM_GUILD: "Premium Guild"};
 
 class Staff {
     constructor() {
