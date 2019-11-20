@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{page}} - {{app_name}}</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
-    <link href="css/commands.css" type="text/css" rel="stylesheet">
+    <link href="css/recipes.css" type="text/css" rel="stylesheet">
     <link href="images/logo.png" rel="icon" type="image/x-icon">
 </head>
 <body>
@@ -14,28 +14,20 @@
         <a href="index.html" class="logo"><h1>{{app_name}}</h1></a>
         <ul class="nav-items">
             <li data-href="index.html">Home</li>
-            <li data-href="commands.html" class="active">Commands</li>
-            <li data-href="recipes.html">Recipes</li>
+            <li data-href="commands.html">Commands</li>
+            <li data-href="recieps.html" class="active">Recipes</li>
             <li data-href="staff.html">Staff</li>
         </ul>
     </nav>
 </header>
 <div class="container">
-    <div class="title">
-        <h1>{{page}}</h1>
-        <p>
-            You don't know the commands? Did you know that you can also do
-            +help to see all the commands? Well... here are the commands for you...
-        </p>
-    </div>
-    <div id="category_bar"></div>
-    <div id="commands_cards"></div>
+    <div id="recipe-category"></div>
 </div>
 <footer>
     {{app_name}} © 2019 - Designed by <a href="https://jackscode.me">Jacxk</a>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/index.js"></script>
-<script src="js/commands.js"></script>
+<script src="js/recipes.js"></script>
 </body>
 </html>
