@@ -1,4 +1,10 @@
-const StaffCategory = {DEV: "Developer", MANAGEMENT: "Management", MODERATORS: "Moderator", DONATORS: "Donator", PREMIUM_GUILD: "Premium Guild"};
+const StaffCategory = {
+    DEV: "Developer",
+    MANAGEMENT: "Management",
+    MODERATORS: "Moderator",
+    DONATORS: "Donator",
+    PREMIUM_GUILD: "Premium Guild"
+};
 
 class Staff {
     constructor() {
@@ -17,7 +23,7 @@ class Staff {
             this._data.filter(card => card.category.includes(cat)).forEach(card => {
                 $("#staff-category").append(`
                     <div class="staff-card">
-                        <div class="staff-icon"><img src="${card.icon}"  alt="${card.name}"></div>
+                        <div class="staff-icon"><img src="${card.icon}" onerror="this.onerror=null;this.src='./images/logo.png';"  alt="${card.name}"></div>
                         <h2 class="staff-name">${card.name}</h2>
                         <p class="staff-desc">${card.desc}</p>
                     </div>
@@ -44,10 +50,10 @@ placeholders.setValue('page', "Staff");
             [StaffCategory.DEV]
         )
         .add("LyLinx",
-             "https://cdn.discordapp.com/attachments/484103296693436428/645949289754787850/Jack-and-George.png?size=2048",
-             "I am the destroyer of servers!",
-             [StaffCategory.MANAGEMENT]
-             )
+            "https://cdn.discordapp.com/attachments/484103296693436428/645949289754787850/Jack-and-George.png?size=2048",
+            "I am the destroyer of servers!",
+            [StaffCategory.MANAGEMENT]
+        )
         .display();
     placeholders.display()
 })();
