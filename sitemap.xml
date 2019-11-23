@@ -9,7 +9,27 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
+  <loc>http://mysterios-playground.net/recipes.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
   <loc>http://mysterios-playground.net/staff.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://mysterios-playground.net/commands</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://mysterios-playground.net/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://mysterios-playground.net/staff</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://mysterios-playground.net/recipes</loc>
   <changefreq>weekly</changefreq>
 </url>
 </urlset>
