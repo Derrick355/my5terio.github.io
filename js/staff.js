@@ -38,14 +38,14 @@ placeholders.setValue('page', "Staff");
 (function () {
     new Staff()
         .add(
-            "Jack",
-            "https://cdn.discordapp.com/avatars/266315409735548928/fd2623aaddad05e08d8c8ed1b0cd9adc.png?size=2048",
-            "Website Developer! I made this. You don't like it? BANNED!",
-            [StaffCategory.DEV])
-        .add(
             "MY5TERIO",
             "https://cdn.discordapp.com/avatars/329452869897945088/a_4afbd51b9d125165a677cfd6b8369518.gif?size=2048",
             "Developer for MysterioBot",
+            [StaffCategory.DEV])
+        .add(
+            "Jack",
+            "https://cdn.discordapp.com/avatars/266315409735548928/fd2623aaddad05e08d8c8ed1b0cd9adc.png?size=2048",
+            "Website Developer! I made this. You don't like it? BANNED!",
             [StaffCategory.DEV])
         .add("LyLinx",
             "https://cdn.discordapp.com/attachments/484103296693436428/645949289754787850/Jack-and-George.png?size=2048",
