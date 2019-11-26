@@ -95,6 +95,18 @@ placeholders.setValue('page', "Staff");
             "https://cdn.discordapp.com/avatars/243465159249494017/db16ce41b34b6b64872e6e7c4f60a0f4.png?size=2048",
             "Hello *says in some random irish accent*",
             [StaffCategory.DONATORS])
+        .add("Scotboy04",
+        "https://cdn.discordapp.com/avatars/319926271385796619/a4f6066228a6249437ac15beb12d85c1.png?size=2048",
+        ". . .",
+        [StaffCategory.DONATORS])
+        .add("Robert",
+        "https://cdn.discordapp.com/avatars/210508892143091712/b21bc2787827d1c889c60a815da76304.png?size=2048",
+        "Want to code something eh?",
+        [StaffCategory.DONATORS])
+        .add("PaulTA2",
+        "https://cdn.discordapp.com/avatars/297636982723444736/23dc2b50585536196edaef043dbb7fc0.png?size=2048",
+        "I don't know what to put here",
+        [StaffCategory.DONATORS])
         .display();
     placeholders.display()
 })();

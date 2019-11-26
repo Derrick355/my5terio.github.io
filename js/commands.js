@@ -1,5 +1,6 @@
-const Categories = {ALL: "All", MUSIC: "Music", MODERATION: "Moderation"};
+const Categories = {ALL: "All", MUSIC: "MUSIC", INFORMATION: "INFORMATION", FUN: "FUN", MODERATION: "MODERATION", DEVELOPER: "DEVELOPER"};
 const SortType = {NAME: 1, CATEGORY: 2, NONE: -1};
+const PREFIX = "!";
 
 class Commands {
     constructor() {
@@ -84,8 +85,12 @@ class Commands {
 placeholders.setValue('page', "Commands");
 (function () {
     const commands = new Commands()
-        .add("Mute", "Mute a user for not behaving", "+mute {user} {reason}", Categories.MODERATION)
-        .add("Play", "Wanna play some gucci gang???", "+play {song/url}", Categories.MUSIC)
+        .add("Meme", "Shows a random meme from Reddit.", PREFIX + "meme", [Categories.FUN])
+        .add("Play", "Plays a song defined, with YouTube.", PREFIX + "play {song link}", [Categories.MUSIC])
+        .add("Join", "Tells the bot to join the Voice Channel.", PREFIX + "join", [Categories.MUSIC])
+        .add("Queue", "Checks the current queue for upcoming songs.", PREFIX + "queue", [Categories.MUSIC])
+        .add("Help", "Shows the help command", PREFIX + "help", [Categories.INFORMATION])
+        .add("Server Info", "Shows the server info for the guild.", PREFIX + "serverinfo", [Categories.INFORMATION])
         .sort()
         .displayCategories()
         .displayCommands();
