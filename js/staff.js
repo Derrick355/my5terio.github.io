@@ -3,7 +3,8 @@ const StaffCategory = {
     MANAGEMENT: "Management",
     MODERATORS: "Moderator",
     DONATORS: "Donator",
-    PREMIUM_GUILD: "Premium Guild"
+    PREMIUM_GUILD: "Premium Guild",
+    JACKASS: "Jackass"
 };
 
 class Staff {
@@ -107,6 +108,10 @@ placeholders.setValue('page', "Staff");
         "https://cdn.discordapp.com/avatars/297636982723444736/23dc2b50585536196edaef043dbb7fc0.png?size=2048",
         "I don't know what to put here",
         [StaffCategory.DONATORS])
+        .add("iPlay G",
+            "https://cdn.discordapp.com/avatars/146151306216734720/eeeff7ae442729e69850a23c8f0330ab.png?size=128 ",
+            "Resident Jackass",
+             [Staff.Category.JACKASS]) 
         .display();
     placeholders.display()
 })();
